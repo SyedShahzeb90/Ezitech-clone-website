@@ -1,8 +1,10 @@
+/* Main container styling */
 .main {
     width: 50%;
     margin: 50px auto;
 }
 
+/* Search input styling */
 .has-search .form-control {
     padding-left: 2.375rem;
 }
@@ -19,15 +21,16 @@
     color: #aaa;
 }
 
-.container h1 span #typed-element{
-    color: white;
-    font-size: large;
+/* Styling for the typed element */
+#typed-element {
+    color: #0dc5e6;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-
+/* Responsive styles */
 @media screen and (max-width: 600px) {
     .subheader, .logos {
       display: none;
     }
-  }
-  
+}

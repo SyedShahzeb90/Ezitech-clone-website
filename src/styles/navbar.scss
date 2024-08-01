@@ -27,7 +27,13 @@
         font-family: "Poppins", sans-serif;
 
     }
-
+.logo{
+    max-width: 150px;
+    height: auto;
+}
+.navbar{
+    border-bottom:0.1px solid white;
+}
     @media (max-width:991px){
         .sidebar{
             background-color: rgb(255, 255, 255, 0.15);

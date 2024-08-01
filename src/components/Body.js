@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
+// import Typewriter from "typewriter-effect";
 import "../styles/body.scss";
 
 export default function Body() {

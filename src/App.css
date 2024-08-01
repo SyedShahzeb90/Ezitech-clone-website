@@ -6,7 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.bg-img {
+  width: 100%;
+  /* background-image: url('path/to/your/background.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(32, 114, 221, 0.329); /* Blue tint with 30% opacity */
+  background-blend-mode: overlay; /* Overlay blends the color with the image */
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

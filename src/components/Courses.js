@@ -1,83 +1,105 @@
 import React from "react";
-import img1 from "../images/flutter.jpg";
-import img2 from '../images/Ai.webp'
-import img3 from '../images/online.webp'
-import img4 from '../images/frontend.webp'
-import '../styles/courses.scss'
+import javascript from "../images/javascript.webp";
+import fiverr from "../images/fiverr.webp";
+import react from "../images/react-1.webp";
+import node from "../images/node.webp";
 
+import tripImage from "../images/adobe.webp";
+import google from "../images/google.jpg";
+import seo from "../images/seo.jpg";
+import digitalmarketing from "../images/digitalmarketing.webp";
+import linkedin from "../images/linkedin-search.webp";
+import contentmarketing from "../images/frontend.webp";
+import "../styles/courses.scss";
 
 function Courses() {
   return (
     <div>
-      <h1 className="text-center">Recommanded Courses</h1>
+      <h1 className="text-center">Limited-Time Summer Course Bundles!</h1>
+      <p className="text-center">
+        Note : All these bundles have recorded luctures{" "}
+      </p>
       <br />
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4 col-lg-3">
+      <div className="">
+        <div className="d-flex justify-content-center align-content-center">
+          <div className="col-md-4 m-2">
             <div className="card mb-4">
-              <img src={img1} className="card-img-top" alt="" />
-              <div className="card-body">
-                <h5 className="card-title">Title 1</h5>
-                <p>
-                  <i className="fas fa-clock"></i> 15 mins
+              <div className="my-heading text-white text-center">
+                <p>Web Development course with industrial Projects</p>
+                <p className="my-heading2">4 Courses</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={javascript} alt="js" />
+                <p className="me-auto">
+                  From Novice to expert, The complete JavaScript Course 2024!
                 </p>
-                <p>Views: 100</p>
-                <p>Reviews: 50</p>
-                <p>Price: $10</p>
-                <a href="#" className="btn btn-primary">
-                  Buy Now
-                </a>
+                <p className="ms-auto">PKR7,600</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={react} alt="react" />
+                <p className="me-auto">
+                  The Complete Guide to React (incl hooks, React Router, Redux)
+                </p>
+                <p className="ms-auto">PKR8,000</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={fiverr} alt="fiverr" />
+                <p className="me-auto">
+                  Sell Fiverr Gigs Like The Top 1% in Freelancing in 2024
+                </p>
+                <p className="ms-auto">PKR4,500</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={node} alt="node" />
+                <p className="me-auto">
+                  The Complete Bootcamp 2024: Node.js, Express, MongoDB, and
+                  More
+                </p>
+                <p className="ms-auto">PKR13,000</p>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-lg-3">
+          <div className="col-md-4 m-2">
             <div className="card mb-4">
-              <img src={img2} className="card-img-top" alt="" />
-              <div className="card-body">
-                <h5 className="card-title">Title 1</h5>
-                <p>
-                  <i className="fas fa-clock"></i> 15 mins
-                </p>
-                <p>Views: 100</p>
-                <p>Reviews: 50</p>
-                <p>Price: $10</p>
-                <a href="#" className="btn btn-primary">
-                  Buy Now
-                </a>
+              <div className="my-heading text-white text-center">
+                <p>Digital Marketing Mastery learn for the best</p>
+                <p className="my-heading2">6 Courses</p>
               </div>
-            </div>
-          </div>
-          <div className="col-md-4 col-lg-3">
-            <div className="card mb-4">
-              <img src={img3} className="card-img-top" alt="" />
-              <div className="card-body">
-                <h5 className="card-title">Title 1</h5>
-                <p>
-                  <i className="fas fa-clock"></i> 15 mins
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={tripImage} alt="trip" />
+                <p className="me-auto">
+                  TripAdvisor, Google My Business, and Local SEO
                 </p>
-                <p>Views: 100</p>
-                <p>Reviews: 50</p>
-                <p>Price: $10</p>
-                <a href="#" className="btn btn-primary">
-                  Buy Now
-                </a>
+                <p className="ms-auto">PKR5,000</p>
               </div>
-            </div>
-          </div>
-          <div className="col-md-4 col-lg-3">
-            <div className="card mb-4">
-              <img src={img4} className="card-img-top" alt="" />
-              <div className="card-body">
-                <h5 className="card-title">Title 1</h5>
-                <p>
-                  <i className="fas fa-clock"></i> 15 mins
-                </p>
-                <p>Views: 100</p>
-                <p>Reviews: 50</p>
-                <p>Price: $10</p>
-                <a href="#" className="btn btn-primary">
-                  Buy Now
-                </a>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={google} alt="react" />
+                <p className="me-auto">Youtube ads and Google ads</p>
+                <p className="ms-auto">PKR5,000</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={seo} alt="fiverr" />
+                <p className="me-auto">Search Engine Optimization</p>
+                <p className="ms-auto">PKR6,000</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img
+                  className="both-pics"
+                  src={digitalmarketing}
+                  alt="digital"
+                />
+                <p className="me-auto">Advance Digital Marketing</p>
+                <p className="ms-auto">PKR6,500</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={linkedin} alt="linkedin" />
+                <p className="me-auto">Linked in Orientation</p>
+                <p className="ms-auto">PKR5,000</p>
+              </div>
+              <div className="card-body d-flex align-items-center">
+                <img className="both-pics" src={contentmarketing} alt="cm" />
+                <p className="me-auto">Content Marketing & Copyrighting </p>
+                <p className="ms-auto">PKR5,000</p>
               </div>
             </div>
           </div>

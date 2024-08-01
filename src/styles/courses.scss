@@ -8,6 +8,7 @@
         opacity: 1;
     }
 }
+
 .card {
     transition: transform 0.3s ease;
 }
@@ -15,3 +16,37 @@
 .card:hover {
     transform: translateY(-10px);
 }
+.my-courses{
+    width: 100rem;
+}
+.my-heading{
+    font-size: 20px;
+    font-weight: 500;
+background-color: #3759cb;
+
+}
+.my-heading2{
+    font-size: 10px;
+    font-weight: 400;
+// background-color: #3759cb;
+
+}
+.card-body.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: start; /* Align items to the start of the container */
+    margin-bottom: 0rem; /* Add some spacing between the card bodies */
+border-bottom: 1px solid silver;  
+}
+  
+  .both-pics {
+    width: 50px; /* Adjust the width of the images as needed */
+    height: auto;
+    margin-right: 1rem; /* Add spacing between the image and the text */
+  }
+  
+  .card-body p {
+    margin: 0; /* Remove the default margin from the paragraph */
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
